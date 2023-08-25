@@ -1,15 +1,85 @@
-.top-folder-body {
-    background-color: #444;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.top-folder-div-1 {
+.top-folder-body {
+    background-color: #444;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.top-folder-div-2 {
+    display: flex;
+}
+
+.fixed {
+    margin-top: 1.4%;
+    font-size: 60px;
+    color: white;
+}
+
+.animated li {
+    position: relative;
+    top: 0;
+    font-size: 60px;
+    color: aquamarine;
+    list-style: none;
+    padding: 0 20px;
+    text-shadow: 0 0 10px ;
+    animation: slide 8s steps(4) infinite;
+}
+
+@keyframes slide {
+    100% {
+        top: -370px;
+    }
+}
+
+.animated {
+    height: 90px;
+    line-height: 95px;
+    overflow: hidden;
+}
+
+.animated li span {
+    position: relative;
+}
+
+.animated li span::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 1000px;
+    height: 90px;
+    background-color: #444;
+    border-left: 2px solid;
+    animation: typing 1s steps(25) infinite alternate;
+    
+    /*margin-left: 0;
+    margin-top: -35px;
+    margin-right: 0;
+    margin-bottom: 35px;*/
+}
+
+@keyframes typing {
+    100% {
+        left: 100%;
+        margin: 0 -35px 0 35px;
+    }
+}
+
+.top-folder-div-3 {
     text-align: center;
 }
 
 .top-folder-btn-1 {
     background-color: black;
     color: aliceblue;
-    margin-top: 5%;
+    margin-top: 7%;
     padding-left: 15px;
     padding-right: 15px;
     padding-top: 5px;
