@@ -1,0 +1,18 @@
+.top-folder-body {
+    background-color: #444;
+}
+
+.top-folder-div-1 {
+    text-align: center;
+}
+
+.top-folder-btn-1 {
+    background-color: black;
+    color: aliceblue;
+    margin-top: 5%;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+}
