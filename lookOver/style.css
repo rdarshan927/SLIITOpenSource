@@ -126,12 +126,12 @@
   font-size: larger;
 }
 
-#type-1-in {
+#type-1-in, #type-r-in {
   color: rgb(255, 0, 0);
 }
 
-#type-1-in-2 {
-  color: red;
+#type-1-in-2, #type-r-in-2 {
+  color: orange;
 }
 
 .right {

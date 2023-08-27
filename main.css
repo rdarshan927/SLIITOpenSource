@@ -29,7 +29,7 @@ body {
     align-items: center;
 }
 
-.item1 h1 {
+.item1 h1, h3 {
     font-family: Impact, 'Arial Narrow Bold', sans-serif;
     order: -1;
     padding: var(--padding);
